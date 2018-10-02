@@ -15,4 +15,5 @@ dependencies{
    compile group: 'org.apache.spark', name: 'spark-core_2.11', version: '2.2.1'
    compile 'org.slf4j:slf4j-api:1.7.21'
    testCompile 'junit:junit:4.12'
+   compile group: 'org.apache.commons', name: 'commons-lang3', version: '3.0'
 }
