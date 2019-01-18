@@ -1,5 +1,7 @@
 apply plugin: 'java'
 
+wrapper.gradleVersion = '5.1'
+
 buildscript {
     repositories {
         mavenCentral()
@@ -17,3 +19,4 @@ dependencies{
    testCompile 'junit:junit:4.12'
    compile group: 'org.apache.commons', name: 'commons-lang3', version: '3.0'
 }
+
